@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'calibri';
+}
+body{
+    background-image: url(../img/imgmascotas.jpg);
+    background-size: cover;
+    
+    
+}
+body .formulario{
+    
+    width: 500px;
+    background:rgba(0, 0, 0, 0.54);
+    backdrop-filter:blur(2px);
+    padding: 20px;
+    margin: auto;
+    margin-top:10px;
+    border-radius: 5px;
+    color: #000;
+}
+
+body .formulario input{
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid #000;
+    font-weight: bold;
+    text-align: center;
+    
+}
+body .formulario h2{
+    text-align: center;
+    font-size: 40px;
+   padding: 1px;
+    margin-top: -1px;
+    color: #ffffff;
+}
+
+body .formulario p{
+    font-size: 18px;
+    padding: 2px;
+    font-weight: bold;
+    color: #ffffff 
+   
+    
+}
+
+body .formulario .btn{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+body .formulario .btn:hover{
+    background-color: rgba(144, 244, 13, 0.7);
+}
+
+body .formulario a{
+    display: block;
+    text-align: center;
+    color: greenyellow;
+  
+}
+
+
+

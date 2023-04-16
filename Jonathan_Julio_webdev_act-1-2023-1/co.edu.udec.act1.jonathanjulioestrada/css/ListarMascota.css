@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border: none;
+    margin: auto;
+    font-size: 14px;
+}
+
+
+th{
+  border-bottom: solid 1px rgba(100,140,210,0.4); 
+
+}
+
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    border-bottom: solid 1px rgba(100,140,210,0.4);
+}
+i{
+    font-size: 20px;
+}
+#edit{
+    color: #ffcc00;
+}
+
+#delete{
+    color: #cc0000;
+}
